@@ -6,14 +6,14 @@
 }
 
 
-/* crearfix */
+/* clearfix */
 .clearfix::after{
     content: '';
     display: table;
     clear: both;
 }   
 
-/* inizio body */
+/* body */
 body{
     font-family: 'Nunito', sans-serif;
     text-align: center;
@@ -22,13 +22,14 @@ body{
 /* fine body */
 
 
-/* inizio h1 */
+/* h1 */
 h1{
     font-size: 40px;
     color:#e4306d;
     padding: 20px;
 }
 /* fine h1 */
+
 
 /* container */
 .container{
@@ -38,7 +39,7 @@ h1{
 /* fine container */
 
 
-/* inizio p */
+/* p */
 p{
     padding: 30px;
 }
@@ -62,12 +63,6 @@ p{
    
 /* fine stilizzazione colonne */
 
-/* inizio stilizzazione immagini */
-.row .column h4, h6{
-    color: white;
-    text-align: left;
-}
-
 
 /* inizio stilizzazione immagini */
 img{
@@ -77,27 +72,33 @@ img{
 /* inizio stilizzazione immagini */
 
 
+/* inizio stilizzazione testi */
 a{
   text-decoration: none; 
   color: #72BEE2
 }
+
 
 h6{
    font-size: 16px;
    font-weight: normal;
 }
 
+
 h4{
     font-size: 20px;
 }
 
 
+h4, h6{
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+}
 
 .worker{
     padding: 8px 20px;
     float: left;
 }
 
-h4, h6{
-    margin-top: 5px;
-}
+/* fine stilizzazione testi */

@@ -47,25 +47,39 @@ p{
 
 /* inizio stilizzazione colonne */
 
+.row{
+    text-align: center;
+}
+
 .row .column{
-    display: inline-block;
-    width: calc(100% / 4);
+    float: left;
+    width: calc(100% / 1);
     background-color: black;
     margin: 25px 15px;
-    width: 300px;
 }
+   
 /* fine stilizzazione colonne */
 
 /* inizio stilizzazione immagini */
-.row .column h2{
+.row .column h2, .work{
     color: white;
+    text-align: left;
 }
 
-
-/* inizio stilizzazione immagini */
-img {
-    width: 120px;
-    display: inline-block;
+.email{
+    color: blue;
+    text-align: left;
     
 }
+
+/* inizio stilizzazione immagini */
+img{
+    height: 130px;
+    float: left;
+}
+/* inizio stilizzazione immagini */
+.work{
+    padding: 10px;
+}
+
 

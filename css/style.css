@@ -9,14 +9,29 @@
 body{
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    padding: 20px;
 }
 /* fine body */
 
+
+/* inizio h1 */
 h1{
     color:#e4306d;
     padding: 20px;
 }
+/* fine h1 */
 
+
+/* inizio p */
 p{
-    padding: 20px;
+    padding: 30px;
+}
+/* fine p */
+
+
+/* inizio row */
+.row .column{
+    display: inline-block;
+    width: calc(100% / 4);
+
 }

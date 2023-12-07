@@ -53,9 +53,10 @@ p{
 
 .row .column{
     float: left;
-    margin: 20px 10px;
-    width: calc(100% / 3 - 20px);
+    margin: 30px 20px;
+    width: calc(100% / 3 - 40px);
     background-color: black;
+    filter: drop-shadow(black 2px 2px 2px);
 }
    
 /* fine stilizzazione colonne */

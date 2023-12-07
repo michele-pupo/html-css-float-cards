@@ -4,3 +4,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* inizio body */
+body{
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* fine body */

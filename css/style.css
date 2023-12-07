@@ -70,14 +70,32 @@ p{
 
 /* inizio stilizzazione immagini */
 img{
-    height: 130px;
+    height: 115px;
     float: left;
 }
 /* inizio stilizzazione immagini */
 
 a{
-    text-decoration: none; 
-	color: #72BEE2
+  text-decoration: none; 
+  color: #72BEE2
+}
+
+h6{
+   font-size: 16px;
+   font-weight: normal;
+}
+
+h4{
+    font-size: 20px;
 }
 
 
+
+.worker{
+    padding: 10px;
+    float: left;
+}
+
+h4, h6{
+    margin-top: 5px;
+}

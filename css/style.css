@@ -24,6 +24,7 @@ body{
 
 /* inizio h1 */
 h1{
+    font-size: 40px;
     color:#e4306d;
     padding: 20px;
 }
@@ -75,6 +76,7 @@ img{
 }
 /* inizio stilizzazione immagini */
 
+
 a{
   text-decoration: none; 
   color: #72BEE2
@@ -92,7 +94,7 @@ h4{
 
 
 .worker{
-    padding: 10px;
+    padding: 8px 20px;
     float: left;
 }
 

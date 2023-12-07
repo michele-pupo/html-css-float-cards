@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+h1{
+    color: #cc3963;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+}
+
 /* inizio body */
 body{
     font-family: 'Nunito', sans-serif;

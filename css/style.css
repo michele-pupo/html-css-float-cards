@@ -31,9 +31,8 @@ h1{
 
 /* container */
 .container{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 70%;
+   margin: 0 auto;
 }
 /* fine container */
 
@@ -49,28 +48,24 @@ p{
 
 .row{
     text-align: center;
+    padding: 20px;
 }
 
 .row .column{
     float: left;
-    width: calc(100% / 1);
+    margin: 20px 10px;
+    width: calc(100% / 3 - 20px);
     background-color: black;
-    margin: 25px 15px;
 }
    
 /* fine stilizzazione colonne */
 
 /* inizio stilizzazione immagini */
-.row .column h2, .work{
+.row .column h4, h6{
     color: white;
     text-align: left;
 }
 
-.email{
-    color: blue;
-    text-align: left;
-    
-}
 
 /* inizio stilizzazione immagini */
 img{
@@ -78,8 +73,10 @@ img{
     float: left;
 }
 /* inizio stilizzazione immagini */
-.work{
-    padding: 10px;
+
+a{
+    text-decoration: none; 
+	color: #72BEE2
 }
 
 

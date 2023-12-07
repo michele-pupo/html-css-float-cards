@@ -33,5 +33,5 @@ p{
 .row .column{
     display: inline-block;
     width: calc(100% / 4);
-
+    padding: 20px;
 }
